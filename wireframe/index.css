@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    margin: 0;
+    height: inherit;
+    width: inherit;
+    background-color: gray;
+}
+
+.stage-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.stage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-label-container {
+    margin-bottom: 4rem;
+    background-color: darkslategray;
+    width: 7rem;
+    padding: 1rem;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-name {
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mute-bar {
+    padding: 0 3rem;
+    border: solid rgb(182, 79, 79);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    color: #ffffff;
+}
+
+.audio-indicator {
+    margin: 0.25rem;
+}
+
+.search {
+    margin: 0.25rem;
+}
+
+.avatar {
+    padding: 14.8em 0;
+    display: flex;
+}
+
+.pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.toolbar {
+    margin: 0;
+    padding: 1rem;
+    border-top: solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+}
+
+.sidebar {
+    margin: 0;
+    height: inherit;
+    width: 20rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.chat-toggle-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chat-toggle-container button {
+    border: none;
+    margin: 0em;
+    padding: 1rem;
+    width: 100%;
+}
+
+.chat-container {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-message {
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.exit-stage {
+    margin: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    padding: 1rem 3rem;
+    color: #ffffff;
+    background-color: rgb(182, 79, 79);
+}
+
+#icon-button {
+    padding: 0.5rem;;
+    border-radius: 50%;
+    border: none;
+}
